@@ -1,73 +1,90 @@
 <!-- wp:template-part {"slug":"header"} /-->
 
-<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
 
 	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 
-		<!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(2.25rem, 2.25rem + ((1vw - 0.2rem) * 1.961), 3.5rem)"}}} -->
-		<h1 class="wp-block-heading" style="font-size:clamp(2.25rem, 2.25rem + ((1vw - 0.2rem) * 1.961), 3.5rem)">Find the right Automattic stack for your project</h1>
-		<!-- /wp:heading -->
+		<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+		<div class="wp-block-group alignwide">
 
-		<!-- wp:paragraph {"style":{"typography":{"fontSize":"var:preset|font-size|large"}},"textColor":"accent-4"} -->
-		<p class="has-accent-4-color has-text-color" style="font-size:var(--wp--preset--font-size--large)">Answer a few questions about your project's needs — traffic, commerce, complexity — and get a recommended architecture with the right Automattic products.</p>
-		<!-- /wp:paragraph -->
+			<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","letterSpacing":"0.1em","textTransform":"uppercase"}},"textColor":"accent-3","fontSize":"small"} -->
+			<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:600;letter-spacing:0.1em;text-transform:uppercase">Automattic for Agencies</p>
+			<!-- /wp:paragraph -->
 
-		<!-- wp:buttons -->
-		<div class="wp-block-buttons">
-			<!-- wp:button {"backgroundColor":"accent-3","textColor":"contrast"} -->
-			<div class="wp-block-button"><a class="wp-block-button__link has-contrast-color has-accent-3-background-color has-text-color has-background wp-element-button" href="#recommender">Get Your Recommendation</a></div>
-			<!-- /wp:button -->
+			<!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(2.5rem, 2.5rem + ((1vw - 0.2rem) * 2.5), 4rem)","lineHeight":"1.05","letterSpacing":"-0.03em"},"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+			<h1 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--30);font-size:clamp(2.5rem, 2.5rem + ((1vw - 0.2rem) * 2.5), 4rem);line-height:1.05;letter-spacing:-0.03em">Find the right<br>Automattic stack<br>for your project</h1>
+			<!-- /wp:heading -->
 
-			<!-- wp:button {"className":"is-style-outline","textColor":"base"} -->
-			<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-color has-text-color wp-element-button" href="#how-it-works">How It Works</a></div>
-			<!-- /wp:button -->
+			<!-- wp:paragraph {"style":{"typography":{"fontSize":"clamp(1.125rem, 1.125rem + ((1vw - 0.2rem) * 0.392), 1.375rem)"},"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|50"}},"elements":{"link":{"color":{"text":"var:preset|color|accent-3"}}}},"textColor":"accent-4"} -->
+			<p class="has-accent-4-color has-text-color" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--50);font-size:clamp(1.125rem, 1.125rem + ((1vw - 0.2rem) * 0.392), 1.375rem)">Answer a few questions about traffic, commerce, and complexity — get a personalized architecture recommendation with the right Automattic products.</p>
+			<!-- /wp:paragraph -->
+
+			<!-- wp:buttons {"style":{"spacing":{"blockGap":"16px"}}} -->
+			<div class="wp-block-buttons">
+				<!-- wp:button {"backgroundColor":"base","textColor":"contrast"} -->
+				<div class="wp-block-button"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background wp-element-button" href="#recommender">Get Your Recommendation</a></div>
+				<!-- /wp:button -->
+
+				<!-- wp:button {"className":"is-style-outline","textColor":"base"} -->
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-color has-text-color wp-element-button" href="#how-it-works">See How It Works</a></div>
+				<!-- /wp:button -->
+			</div>
+			<!-- /wp:buttons -->
+
 		</div>
-		<!-- /wp:buttons -->
+		<!-- /wp:group -->
 
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
-
-		<!-- wp:heading {"textAlign":"center","anchor":"how-it-works"} -->
-		<h2 class="wp-block-heading has-text-align-center" id="how-it-works">How It Works</h2>
-		<!-- /wp:heading -->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"border":{"bottom":{"color":"var:preset|color|accent-4","width":"1px"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull has-base-background-color has-background" style="border-bottom-color:var(--wp--preset--color--accent-4);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 
 		<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
 		<div class="wp-block-columns alignwide">
 
-			<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}}} -->
-			<div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40)">
-				<!-- wp:heading {"level":3,"textColor":"accent-1"} -->
-				<h3 class="wp-block-heading has-accent-1-color has-text-color">1. Tell Us About Your Project</h3>
-				<!-- /wp:heading -->
-				<!-- wp:paragraph -->
-				<p>Answer questions about your expected traffic, commerce requirements, content complexity, and budget.</p>
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
+			<div class="wp-block-column">
+				<!-- wp:paragraph {"style":{"typography":{"fontSize":"clamp(2rem, 2rem + ((1vw - 0.2rem) * 1.5), 3rem)","fontWeight":"600","letterSpacing":"-0.02em"}},"textColor":"accent-1"} -->
+				<p class="has-accent-1-color has-text-color" style="font-size:clamp(2rem, 2rem + ((1vw - 0.2rem) * 1.5), 3rem);font-weight:600;letter-spacing:-0.02em">43%</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph {"textColor":"accent-6","fontSize":"small"} -->
+				<p class="has-accent-6-color has-text-color has-small-font-size">of the web is powered by WordPress</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
 
-			<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}}} -->
-			<div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40)">
-				<!-- wp:heading {"level":3,"textColor":"accent-1"} -->
-				<h3 class="wp-block-heading has-accent-1-color has-text-color">2. Get a Recommendation</h3>
-				<!-- /wp:heading -->
-				<!-- wp:paragraph -->
-				<p>Our tool analyzes your answers and recommends the ideal Automattic stack — Pressable, WooCommerce, Jetpack, VIP, or a combination.</p>
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
+			<div class="wp-block-column">
+				<!-- wp:paragraph {"style":{"typography":{"fontSize":"clamp(2rem, 2rem + ((1vw - 0.2rem) * 1.5), 3rem)","fontWeight":"600","letterSpacing":"-0.02em"}},"textColor":"accent-1"} -->
+				<p class="has-accent-1-color has-text-color" style="font-size:clamp(2rem, 2rem + ((1vw - 0.2rem) * 1.5), 3rem);font-weight:600;letter-spacing:-0.02em">1,000+</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph {"textColor":"accent-6","fontSize":"small"} -->
+				<p class="has-accent-6-color has-text-color has-small-font-size">agency partners across the globe</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
 
-			<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}}} -->
-			<div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40)">
-				<!-- wp:heading {"level":3,"textColor":"accent-1"} -->
-				<h3 class="wp-block-heading has-accent-1-color has-text-color">3. Understand the Architecture</h3>
-				<!-- /wp:heading -->
-				<!-- wp:paragraph -->
-				<p>See exactly why each product was recommended, how they work together, and get links to documentation to get started.</p>
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
+			<div class="wp-block-column">
+				<!-- wp:paragraph {"style":{"typography":{"fontSize":"clamp(2rem, 2rem + ((1vw - 0.2rem) * 1.5), 3rem)","fontWeight":"600","letterSpacing":"-0.02em"}},"textColor":"accent-1"} -->
+				<p class="has-accent-1-color has-text-color" style="font-size:clamp(2rem, 2rem + ((1vw - 0.2rem) * 1.5), 3rem);font-weight:600;letter-spacing:-0.02em">99.99%</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph {"textColor":"accent-6","fontSize":"small"} -->
+				<p class="has-accent-6-color has-text-color has-small-font-size">uptime across our hosting platforms</p>
+				<!-- /wp:paragraph -->
+			</div>
+			<!-- /wp:column -->
+
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
+			<div class="wp-block-column">
+				<!-- wp:paragraph {"style":{"typography":{"fontSize":"clamp(2rem, 2rem + ((1vw - 0.2rem) * 1.5), 3rem)","fontWeight":"600","letterSpacing":"-0.02em"}},"textColor":"accent-1"} -->
+				<p class="has-accent-1-color has-text-color" style="font-size:clamp(2rem, 2rem + ((1vw - 0.2rem) * 1.5), 3rem);font-weight:600;letter-spacing:-0.02em">24/7</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:paragraph {"textColor":"accent-6","fontSize":"small"} -->
+				<p class="has-accent-6-color has-text-color has-small-font-size">expert support for every product</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -78,60 +95,168 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"accent-5","layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull has-accent-5-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"},"anchor":"how-it-works"} -->
+	<div class="wp-block-group alignfull" id="how-it-works" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 
-		<!-- wp:heading {"textAlign":"center"} -->
-		<h2 class="wp-block-heading has-text-align-center">Automattic Products</h2>
-		<!-- /wp:heading -->
+		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
+		<div class="wp-block-group alignwide">
 
-		<!-- wp:paragraph {"align":"center","textColor":"accent-6"} -->
-		<p class="has-text-align-center has-accent-6-color has-text-color">The building blocks of your recommended architecture.</p>
-		<!-- /wp:paragraph -->
+			<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","letterSpacing":"0.1em","textTransform":"uppercase"}},"textColor":"accent-1","fontSize":"small"} -->
+			<p class="has-accent-1-color has-text-color has-small-font-size" style="font-weight:600;letter-spacing:0.1em;text-transform:uppercase">How It Works</p>
+			<!-- /wp:paragraph -->
+
+			<!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+			<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Three steps to your ideal architecture</h2>
+			<!-- /wp:heading -->
+
+		</div>
+		<!-- /wp:group -->
+
+		<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
+		<div class="wp-block-columns alignwide">
+
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"top":{"color":"var:preset|color|accent-1","width":"3px"}}}} -->
+			<div class="wp-block-column" style="border-top-color:var(--wp--preset--color--accent-1);border-top-width:3px;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40)">
+				<!-- wp:paragraph {"style":{"typography":{"fontSize":"3rem","fontWeight":"700","lineHeight":"1"}},"textColor":"accent-4"} -->
+				<p class="has-accent-4-color has-text-color" style="font-size:3rem;font-weight:700;line-height:1">01</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+				<h3 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--30)">Tell us about your project</h3>
+				<!-- /wp:heading -->
+				<!-- wp:paragraph {"textColor":"accent-6"} -->
+				<p class="has-accent-6-color has-text-color">Answer questions about your expected traffic, commerce requirements, content complexity, and budget constraints.</p>
+				<!-- /wp:paragraph -->
+			</div>
+			<!-- /wp:column -->
+
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"top":{"color":"var:preset|color|accent-2","width":"3px"}}}} -->
+			<div class="wp-block-column" style="border-top-color:var(--wp--preset--color--accent-2);border-top-width:3px;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40)">
+				<!-- wp:paragraph {"style":{"typography":{"fontSize":"3rem","fontWeight":"700","lineHeight":"1"}},"textColor":"accent-4"} -->
+				<p class="has-accent-4-color has-text-color" style="font-size:3rem;font-weight:700;line-height:1">02</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+				<h3 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--30)">Get a recommendation</h3>
+				<!-- /wp:heading -->
+				<!-- wp:paragraph {"textColor":"accent-6"} -->
+				<p class="has-accent-6-color has-text-color">Our tool analyzes your answers and recommends the ideal Automattic stack — Pressable, WooCommerce, Jetpack, VIP, or a combination.</p>
+				<!-- /wp:paragraph -->
+			</div>
+			<!-- /wp:column -->
+
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"top":{"color":"var:preset|color|accent-3","width":"3px"}}}} -->
+			<div class="wp-block-column" style="border-top-color:var(--wp--preset--color--accent-3);border-top-width:3px;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40)">
+				<!-- wp:paragraph {"style":{"typography":{"fontSize":"3rem","fontWeight":"700","lineHeight":"1"}},"textColor":"accent-4"} -->
+				<p class="has-accent-4-color has-text-color" style="font-size:3rem;font-weight:700;line-height:1">03</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+				<h3 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--30)">Understand the architecture</h3>
+				<!-- /wp:heading -->
+				<!-- wp:paragraph {"textColor":"accent-6"} -->
+				<p class="has-accent-6-color has-text-color">See exactly why each product was recommended, how they fit together, and get links to documentation to get started.</p>
+				<!-- /wp:paragraph -->
+			</div>
+			<!-- /wp:column -->
+
+		</div>
+		<!-- /wp:columns -->
+
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"accent-5","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull has-accent-5-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+
+		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
+		<div class="wp-block-group alignwide">
+
+			<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","letterSpacing":"0.1em","textTransform":"uppercase"}},"textColor":"accent-1","fontSize":"small"} -->
+			<p class="has-accent-1-color has-text-color has-small-font-size" style="font-weight:600;letter-spacing:0.1em;text-transform:uppercase">The Platform</p>
+			<!-- /wp:paragraph -->
+
+			<!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}}} -->
+			<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--20)">Automattic Products</h2>
+			<!-- /wp:heading -->
+
+			<!-- wp:paragraph {"textColor":"accent-6","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+			<p class="has-accent-6-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--60)">The building blocks of your recommended architecture. Each product is best-in-class and designed to work seamlessly together.</p>
+			<!-- /wp:paragraph -->
+
+		</div>
+		<!-- /wp:group -->
 
 		<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
 		<div class="wp-block-columns alignwide">
 
-			<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"radius":"8px"}},"backgroundColor":"base"} -->
-			<div class="wp-block-column has-base-background-color has-background" style="border-radius:8px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40)">
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}},"border":{"radius":"12px","width":"1px","color":"var:preset|color|accent-4"}},"backgroundColor":"base"} -->
+			<div class="wp-block-column has-border-color has-base-background-color has-background" style="border-color:var(--wp--preset--color--accent-4);border-width:1px;border-radius:12px;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50)">
+				<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","letterSpacing":"0.05em","textTransform":"uppercase"}},"textColor":"accent-1","fontSize":"small"} -->
+				<p class="has-accent-1-color has-text-color has-small-font-size" style="font-weight:600;letter-spacing:0.05em;text-transform:uppercase">Enterprise</p>
+				<!-- /wp:paragraph -->
 				<!-- wp:heading {"level":3} -->
 				<h3 class="wp-block-heading">WordPress VIP</h3>
 				<!-- /wp:heading -->
+				<!-- wp:paragraph {"textColor":"accent-6","fontSize":"small"} -->
+				<p class="has-accent-6-color has-text-color has-small-font-size">Enterprise-grade managed WordPress for high-traffic, mission-critical sites. Advanced security, compliance, and dedicated support.</p>
+				<!-- /wp:paragraph -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size">Enterprise-grade WordPress hosting for high-traffic, mission-critical sites with advanced security and compliance.</p>
+				<p class="has-small-font-size"><a href="https://wpvip.com">Learn more →</a></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
 
-			<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"radius":"8px"}},"backgroundColor":"base"} -->
-			<div class="wp-block-column has-base-background-color has-background" style="border-radius:8px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40)">
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}},"border":{"radius":"12px","width":"1px","color":"var:preset|color|accent-4"}},"backgroundColor":"base"} -->
+			<div class="wp-block-column has-border-color has-base-background-color has-background" style="border-color:var(--wp--preset--color--accent-4);border-width:1px;border-radius:12px;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50)">
+				<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","letterSpacing":"0.05em","textTransform":"uppercase"}},"textColor":"accent-2","fontSize":"small"} -->
+				<p class="has-accent-2-color has-text-color has-small-font-size" style="font-weight:600;letter-spacing:0.05em;text-transform:uppercase">Hosting</p>
+				<!-- /wp:paragraph -->
 				<!-- wp:heading {"level":3} -->
 				<h3 class="wp-block-heading">Pressable</h3>
 				<!-- /wp:heading -->
+				<!-- wp:paragraph {"textColor":"accent-6","fontSize":"small"} -->
+				<p class="has-accent-6-color has-text-color has-small-font-size">Managed WordPress hosting built for agencies. Reliable performance, staging environments, easy site management, and expert support.</p>
+				<!-- /wp:paragraph -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size">Managed WordPress hosting built for agencies. Reliable performance, easy site management, and expert support.</p>
+				<p class="has-small-font-size"><a href="https://pressable.com">Learn more →</a></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
 
-			<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"radius":"8px"}},"backgroundColor":"base"} -->
-			<div class="wp-block-column has-base-background-color has-background" style="border-radius:8px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40)">
+		</div>
+		<!-- /wp:columns -->
+
+		<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"top":"var:preset|spacing|40"}}}} -->
+		<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--40)">
+
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}},"border":{"radius":"12px","width":"1px","color":"var:preset|color|accent-4"}},"backgroundColor":"base"} -->
+			<div class="wp-block-column has-border-color has-base-background-color has-background" style="border-color:var(--wp--preset--color--accent-4);border-width:1px;border-radius:12px;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50)">
+				<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","letterSpacing":"0.05em","textTransform":"uppercase"}},"textColor":"accent-3","fontSize":"small"} -->
+				<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:600;letter-spacing:0.05em;text-transform:uppercase">Commerce</p>
+				<!-- /wp:paragraph -->
 				<!-- wp:heading {"level":3} -->
 				<h3 class="wp-block-heading">WooCommerce</h3>
 				<!-- /wp:heading -->
+				<!-- wp:paragraph {"textColor":"accent-6","fontSize":"small"} -->
+				<p class="has-accent-6-color has-text-color has-small-font-size">The most customizable open-source ecommerce platform. Sell anything — physical products, subscriptions, marketplaces, and more.</p>
+				<!-- /wp:paragraph -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size">The open-source ecommerce platform for WordPress. Sell anything, anywhere — from physical products to subscriptions.</p>
+				<p class="has-small-font-size"><a href="https://woocommerce.com">Learn more →</a></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
 
-			<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"radius":"8px"}},"backgroundColor":"base"} -->
-			<div class="wp-block-column has-base-background-color has-background" style="border-radius:8px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40)">
+			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}},"border":{"radius":"12px","width":"1px","color":"var:preset|color|accent-4"}},"backgroundColor":"base"} -->
+			<div class="wp-block-column has-border-color has-base-background-color has-background" style="border-color:var(--wp--preset--color--accent-4);border-width:1px;border-radius:12px;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50)">
+				<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","letterSpacing":"0.05em","textTransform":"uppercase"}},"textColor":"accent-6","fontSize":"small"} -->
+				<p class="has-accent-6-color has-text-color has-small-font-size" style="font-weight:600;letter-spacing:0.05em;text-transform:uppercase">Security &amp; Growth</p>
+				<!-- /wp:paragraph -->
 				<!-- wp:heading {"level":3} -->
 				<h3 class="wp-block-heading">Jetpack</h3>
 				<!-- /wp:heading -->
+				<!-- wp:paragraph {"textColor":"accent-6","fontSize":"small"} -->
+				<p class="has-accent-6-color has-text-color has-small-font-size">Security, performance, and marketing tools for WordPress. Real-time backups, malware scanning, CDN, social sharing, and SEO.</p>
+				<!-- /wp:paragraph -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size">Security, performance, and growth tools for WordPress. Backups, malware scanning, CDN, social sharing, and more.</p>
+				<p class="has-small-font-size"><a href="https://jetpack.com">Learn more →</a></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -142,36 +267,77 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"accent-5","layout":{"type":"constrained"},"anchor":"recommender"} -->
-	<div class="wp-block-group alignfull has-accent-5-background-color has-background" id="recommender" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 
-		<!-- wp:heading {"textAlign":"center"} -->
-		<h2 class="wp-block-heading has-text-align-center">Find Your Stack</h2>
-		<!-- /wp:heading -->
+		<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"800px","justifyContent":"left"}} -->
+		<div class="wp-block-group alignwide">
+
+			<!-- wp:quote {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+			<blockquote class="wp-block-quote" style="margin-bottom:var(--wp--preset--spacing--40)">
+				<!-- wp:paragraph -->
+				<p>Automattic's products let us focus on building great experiences for our clients instead of worrying about infrastructure. The stack just works.</p>
+				<!-- /wp:paragraph -->
+				<cite>Agency Partner</cite>
+			</blockquote>
+			<!-- /wp:quote -->
+
+		</div>
+		<!-- /wp:group -->
+
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"},"anchor":"recommender"} -->
+	<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background" id="recommender" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+
+		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
+		<div class="wp-block-group alignwide">
+
+			<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600","letterSpacing":"0.1em","textTransform":"uppercase"}},"textColor":"accent-3","fontSize":"small"} -->
+			<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:600;letter-spacing:0.1em;text-transform:uppercase">Interactive Tool</p>
+			<!-- /wp:paragraph -->
+
+			<!-- wp:heading {"textColor":"base","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+			<h2 class="wp-block-heading has-base-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--60)">Find Your Stack</h2>
+			<!-- /wp:heading -->
+
+		</div>
+		<!-- /wp:group -->
 
 		<!-- wp:post-content {"align":"wide","layout":{"type":"constrained"}} /-->
 
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"accent-1","textColor":"base","layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull has-base-color has-accent-1-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"accent-1","textColor":"base","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull has-base-color has-accent-1-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 
-		<!-- wp:heading {"textAlign":"center","textColor":"base"} -->
-		<h2 class="wp-block-heading has-text-align-center has-base-color has-text-color">Ready to partner with Automattic?</h2>
-		<!-- /wp:heading -->
+		<!-- wp:group {"layout":{"type":"constrained","contentSize":"600px"}} -->
+		<div class="wp-block-group">
 
-		<!-- wp:paragraph {"align":"center","textColor":"base"} -->
-		<p class="has-text-align-center has-base-color has-text-color">Let us help you build the perfect WordPress architecture for your next project.</p>
-		<!-- /wp:paragraph -->
+			<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 1.5), 3rem)"}},"textColor":"base"} -->
+			<h2 class="wp-block-heading has-text-align-center has-base-color has-text-color" style="font-size:clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 1.5), 3rem)">Ready to partner with Automattic?</h2>
+			<!-- /wp:heading -->
 
-		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-		<div class="wp-block-buttons">
-			<!-- wp:button {"backgroundColor":"accent-3","textColor":"contrast"} -->
-			<div class="wp-block-button"><a class="wp-block-button__link has-contrast-color has-accent-3-background-color has-text-color has-background wp-element-button" href="/contact">Get in Touch</a></div>
-			<!-- /wp:button -->
+			<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|50"}}},"textColor":"accent-4"} -->
+			<p class="has-text-align-center has-accent-4-color has-text-color" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--50)">Let us help you build the perfect WordPress architecture for your next project.</p>
+			<!-- /wp:paragraph -->
+
+			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"16px"}}} -->
+			<div class="wp-block-buttons">
+				<!-- wp:button {"backgroundColor":"base","textColor":"accent-1"} -->
+				<div class="wp-block-button"><a class="wp-block-button__link has-accent-1-color has-base-background-color has-text-color has-background wp-element-button" href="/contact">Get in Touch</a></div>
+				<!-- /wp:button -->
+
+				<!-- wp:button {"className":"is-style-outline","textColor":"base"} -->
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-color has-text-color wp-element-button" href="https://automattic.com/for-agencies">Visit A4A →</a></div>
+				<!-- /wp:button -->
+			</div>
+			<!-- /wp:buttons -->
+
 		</div>
-		<!-- /wp:buttons -->
+		<!-- /wp:group -->
 
 	</div>
 	<!-- /wp:group -->
