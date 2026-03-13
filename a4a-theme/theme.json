@@ -1,0 +1,134 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#0240E4",
+					"name": "Accent 1",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#349FFF",
+					"name": "Accent 2",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#72B3FF",
+					"name": "Accent 3",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#D6E9FF",
+					"name": "Accent 4",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#F6F7F7",
+					"name": "Accent 5",
+					"slug": "accent-5"
+				},
+				{
+					"color": "#50575E",
+					"name": "Accent 6",
+					"slug": "accent-6"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Source Serif Pro",
+					"slug": "source-serif-pro",
+					"fontFamily": "\"Source Serif Pro\", Georgia, serif",
+					"fontFace": [
+						{
+							"src": [ "https://fonts.gstatic.com/s/sourceserifpro/v21/neIQzD-0qpwxpaWvJW6NSnKUTnRlOEmAqFVgQw.woff2" ],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "\"Source Serif Pro\""
+						},
+						{
+							"src": [ "https://fonts.gstatic.com/s/sourceserifpro/v21/neIVzD-0qpwxpaWvJW6NSnKUTnRjDIrGSfWq7KqE.woff2" ],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "\"Source Serif Pro\""
+						},
+						{
+							"src": [ "https://fonts.gstatic.com/s/sourceserifpro/v21/neIVzD-0qpwxpaWvJW6NSnKUTnRjDMbASfWq7KqE.woff2" ],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "\"Source Serif Pro\""
+						}
+					]
+				},
+				{
+					"name": "Inter",
+					"slug": "inter",
+					"fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+					"fontFace": [
+						{
+							"src": [ "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwY.woff2" ],
+							"fontWeight": "100 900",
+							"fontStyle": "normal",
+							"fontFamily": "Inter"
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|inter",
+			"fontSize": "var:preset|font-size|medium",
+			"fontWeight": "400",
+			"lineHeight": "1.5"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|source-serif-pro",
+					"fontWeight": "400",
+					"letterSpacing": "-0.1px"
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var:preset|color|accent-3",
+					"text": "var:preset|color|contrast"
+				},
+				"border": {
+					"radius": "9999px"
+				},
+				":hover": {
+					"color": {
+						"background": "var:preset|color|accent-2",
+						"text": "var:preset|color|contrast"
+					}
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|accent-1"
+				},
+				":hover": {
+					"color": {
+						"text": "var:preset|color|accent-2"
+					}
+				}
+			}
+		}
+	}
+}
